@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang= "en-IE">
+<head>
+  <meta charset="utf-8">
+  <title>Assignment</title>
+  <link rel="stylesheet" href="assignment.css">
+</head>  
+<body>
+  <header>
+    <h1>Balloon Keepy Up!</h1>
+  </header>
+  <nav>
+    <a href="assignment.html">Home</a> | <a href="events.html">Schedule/Events</a> | <a href="signup.html">Signup</a> | <a href="contactus.html">Contact us</a> |
+  </nav>
+  <main>
+  <br>
+  <!-- Form begins -->
+  
+    <form method="post" action="https://webdevcit.com/displayvalues.php" target="_blank">
+    <fieldset>
+      <legend>Sign up Information</legend>
+	  <p>
+	    <label>First Name:</label><input type="text" name="firstname" autocomplete="on">
+	  </p>
+	  <p>
+	    <label>Surname Name:</label><input type="text" name="surname" autocomplete="on">
+	  </p>
+	  <p>
+	    <label>Email Address (required):</label><input type="email" name="email" autocomplete="on" required>
+   	  </p>
+	  <p>
+	    <label>Telephone Number (required):</label><input type="tel" name="telephone" required>
+      </p>
+	  <p>
+	    What is your preferred method of contact?:
+		<select name="contact_method">
+		  <option disabled>Please Choose</option>
+	      <option value="text_message">Text Message</option>
+		  <option value="whatsapp">Whatsapp</option>
+		  <option value="email">Email</option>
+		  <option value="viber">Viber</option>
+		  <option value="zoom">Zoom</option>
+		  <option value="discord">Discord</option>
+	    </select>
+	  </p>
+	  <p>
+	    <label>What is your date of birth?:<input type="date" name="date"></label>
+	  </p>
+	  <p>
+	    <label>What is your Department of Study in MTU? (required):</label><input type="text" name="department" placeholder="Enter your Department of Study here..." required>
+	  </p>
+    </fieldset>
+    <fieldset>
+	  <legend>Club Questions</legend>
+      <p>
+	    What is your level of experience in the sport?:
+	    <label>Novice<input type="radio" name="question" value="novice"></label>
+		<label>Competent<input type="radio" name="question" value="competent"></label>
+		<label>Expert<input type="radio" name="question" value="expert"></label>
+	  </p>
+	  <p>
+	    Would you like to take part in competitions?
+	    <label>Yes Please<input type="radio" name="questions" value="yes_please"></label>
+		<label>No Thanks<input type="radio" name="questions" value="no_thanks"></label>
+	  </p>
+	  <p>
+	    <label>Reason(s) for joining the club?:</label><br><textarea name="creasons" placeholder="Enter your reasons here..." cols="60" rows="5" ></textarea>
+	  </p>
+	</fieldset>
+	<fieldset>
+	  <legend>Complete</legend>
+	  <p>
+	    <button type="submit">
+		<img src="Images/tick.png" alt="tick" title="Submit form" class="button">
+		<br>
+		Submit
+		</button>
+		<button type="reset">
+		<img src="Images/eraser.png" alt="eraser" title="Reset form" class="button">
+		<br>
+		Reset
+		</button>
+	  </p>
+	</fieldset>
+	</form>
+	
+	<!-- Form ends -->
+	
+  </main>
+  <footer>
+    <p>
+	  &copy; 2021 Balloon Keepy Up. All Rights Reserved.
+	  <br>
+      Contact Website Developer: <a href="mailto:isaac.cronin@mycit">isaac.cronin@mycit.ie</a>
+	</p>
+  </footer>  
+</body>
+</html>

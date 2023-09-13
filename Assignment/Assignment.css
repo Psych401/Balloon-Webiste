@@ -1,0 +1,105 @@
+* {
+	margin: 0;
+}
+
+header {
+	height: 100px;
+	margin: auto;
+	background-image: url(Images/balloonbackground.jpg);
+	/* Image found https://unsplash.com/photos/YfZZvPaR9hY */
+	font-family: "Snap ITC", serif;
+	color: yellow;
+	padding-left: 60px;
+}
+
+nav {
+	background: yellow;
+	color: red;
+	font-weight: bold;
+	padding: 0px 60px;
+}
+
+main {
+	background: #63ffed;
+	font-family: cursive;
+	padding: 20px 60px;
+	text-align: center;
+}
+
+footer {
+	background: #262626;
+	color: #63ffed;
+	padding: 30px 20px;
+}
+
+.bwc {
+	width: 60%;
+	height: 315px;
+}
+
+#logo1 {
+	width: 19%;
+	height: 315px;
+}
+
+#logo2 {
+	width: 19%;
+	height: 315px;
+}
+
+nav a {
+	margin: 0px 25px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+iframe {
+	height: 100%;
+	width: 100%;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	background: orange;
+	margin: 20px 20px 20px 0px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+table img {
+	width: 35px;
+	height: 35px;
+}
+
+#titles {
+	background: white;
+}
+
+.question {
+	font-weight: bold;
+}
+
+main#contact {
+	padding: 20px 60px 12% 60px;
+}
+
+.button {
+	height: 60px;
+	width: 60px;
+	cursor: pointer;
+}
+
+.button:active {
+  transform: translateY(4px);
+}
